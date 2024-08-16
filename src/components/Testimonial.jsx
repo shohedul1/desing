@@ -29,11 +29,11 @@ const Testimonial = () => {
             Hear from some of our satified clients about how our services have positively impacted their lives and well being.
           </p>
         </div>
-        <div className="flex flex-col md:w-4/5 mx-auto md:flex-row md:gap-12 gap-8">
+        <div className="flex flex-col md:w-4/5 mx-auto md:flex-row md:gap-12 gap-8 md:px-0 px-4">
           {
             testimonials.map((testimonial, index) => (
               <div key={index} className="relative bg-white rounded-lg p-6 flex-1">
-                <div className="absolute top-0 left-0 transform -translate-x-1/2 -translate-y-1/2">
+                <div className="absolute top-0 left-0 transform md:-translate-x-1/2  -translate-y-1/2">
                   <BsFillChatQuoteFill className="size-12 text-primary" />
                 </div>
                 <div className="flex flex-col space-y-3 mb-4">
