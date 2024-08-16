@@ -4,6 +4,12 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 import { IoMdCall } from "react-icons/io";
 import { CiMail } from "react-icons/ci";
+import { CiTwitter } from "react-icons/ci";
+import { FaInstagram } from "react-icons/fa";
+import { CiLinkedin } from "react-icons/ci";
+
+
+
 
 
 
@@ -24,13 +30,13 @@ const Footer = () => {
                             <FaFacebookSquare />
                         </a>
                         <a href="#" className='bg-gray-200 text-primary rounded-full size-10 flex items-center justify-center hover:bg-primary hover:text-white'>
-                            <FaFacebookSquare />
+                            <CiTwitter />
                         </a>
                         <a href="#" className='bg-gray-200 text-primary rounded-full size-10 flex items-center justify-center hover:bg-primary hover:text-white'>
-                            <FaFacebookSquare />
+                            <FaInstagram />
                         </a>
                         <a href="#" className='bg-gray-200 text-primary rounded-full size-10 flex items-center justify-center hover:bg-primary hover:text-white'>
-                            <FaFacebookSquare />
+                            <CiLinkedin />
                         </a>
                     </div>
                 </div>
